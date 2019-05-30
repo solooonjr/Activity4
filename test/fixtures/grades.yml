@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  course: MyString
+  id_num: 1
+  pre_lim: 1
+  midterm: 1
+  pre_final: 1
+  final: 1
+  ave_grade: 1
+
+two:
+  name: MyString
+  course: MyString
+  id_num: 1
+  pre_lim: 1
+  midterm: 1
+  pre_final: 1
+  final: 1
+  ave_grade: 1

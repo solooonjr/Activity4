@@ -1,0 +1,47 @@
+
+<%= form_for(@grade) do |f| %>
+
+        <div>
+        <%= f.label :name %>
+        <%= f.text_field :name %>
+        </div>
+
+        <div>
+        <%= f.label :course %>
+        <%= f.text_field :course %>
+        </div>
+
+        <div>
+        <%= f.label "ID Number:" %>
+        <%= f.text_field :id_num %>
+        </div>
+
+        <div>
+        <%= f.label "Prelim Grade:" %>
+        <%= f.text_field :pre_lim %>
+        </div>
+
+        <div>
+        <%= f.label "Midterm Grade:" %>
+        <%= f.text_field :midterm %>
+        </div>
+
+        <div>
+        <%= f.label "PreFinal Grade:" %>
+        <%= f.text_field :pre_final %>
+        </div>
+
+        <div>
+        <%= f.label "Final Grade:" %>
+        <%= f.text_field :pre_final %>
+        </div>
+
+        <div>
+        <%= f.label "Average Grade:" %>
+        <%= f.text_field :ave_grade %>
+        </div>
+
+        <div>
+        <%= f.submit "Submit Grade" %>
+        </div>
+<% end %>

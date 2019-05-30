@@ -1,0 +1,30 @@
+<table>
+    <tr>
+
+        <th>Name</th>
+        <th>Course</th>
+        <th> ID Number</th>
+    </tr>
+
+    <% @grade.each do |grade| %>
+    <tr>
+        <td><%= grade.name %></td>
+        <td><%= grade.course %></td>
+        <td><%= grade.id_num %></td>
+        <td>
+
+            <a href="grades/<%= grade.id %>">
+                SHOW
+            </a>
+
+    </tr>    
+    <% end %>
+    
+        <td>
+            <a href="grades/new">
+                Submit a grade
+            </a>
+        </td>
+     
+
+</table>
